@@ -20,15 +20,15 @@ export const stories = [
         image: ImgHaldi,
     },
     {
-        title: 'Mehndi',
-        date: 'Tuesday, April 16, 2024',
+        title: 'Mehndi & Sangeet',
+        date: 'Monday, April 15, 2024',
         description: 'In the rhythmic dance and vibrant celebration surrounding the mehndi ceremony, there lies a philosophical lesson – the importance of joy, music, and communal bonds in the human experience. Just as diverse patterns come together to create a harmonious whole, so do diverse individuals unite to form the intricate mosaic of a shared existence.',
         image: ImgMehndi,
     },
 
     {
-        title: 'Sangeet',
-        date: 'Tuesday, April 16, 2024',
+        title: 'Matkor',
+        date: 'Wednesday, April 17, 2024',
         description: 'The Sangeet ceremony is a joyous and musical pre-wedding celebration in Indian weddings, typically associated with Hindu traditions. This lively event is characterized by music, dance, and performances by family and friends of the bride and groom. ',
         image: ImgSangeet,
     },

@@ -9,7 +9,7 @@ function WeddingSection({ isInvitation }) {
         return (
             <Fragment>
                 <div className="col-md-8 col-md-offset-4">
-                    <WeddingInfoBox title="" time="08.00 PM" date="Sunday, April 17, 2024" />
+                    <WeddingInfoBox title="" time="08.00 PM" date="Wednesday, April 17, 2024" />
                 </div>
             </Fragment>
         );

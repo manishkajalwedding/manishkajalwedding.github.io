@@ -36,7 +36,24 @@ function Home({ location }) {
             <Fragment>
                 <HelloSection isInvitation={isInvitation} />
                 <WeddingSection isInvitation={isInvitation} />
-                <LocationSection />
+                <LocationSection
+                    eventTitle="Tilak Ceremony Venue"
+                    addressTitle=" Manish Tilak Party"
+                    mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.083857538838!2d84.34864887486032!3d26.291381386516765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992ffe0f3fa9dfb%3A0x6312d954b3aa4500!2sGyanti%20Residency!5e0!3m2!1sen!2sin!4v1709750650005!5m2!1sen!2sin"
+                    addressLine1="Gyanti Residency"
+                    addressLine2="Vill + PO - Sarsar, Ward No - 1, Distt. - Siwann"
+                    addressLine3="Bihar - 841226"
+                    addressLink="https://maps.app.goo.gl/sdo7iDcF5SwQeJE67"
+                />
+                <LocationSection
+                    eventTitle="Wedding Ceremony Venue"
+                    addressTitle="Manish & Kajal Wedding Party"
+                    mapLink="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3578.337397540725!2d84.47623107541679!3d26.25071097704796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDE1JzAyLjYiTiA4NMKwMjgnNDMuNyJF!5e0!3m2!1sen!2sin!4v1709751080983!5m2!1sen!2sin"
+                    addressLine1="Babhanbara"
+                    addressLine2="Vill + PO - Babhanbara, Ward No - 12, Tehsil - Barhariya, Dist. - Siwan"
+                    addressLine3="Bihar - 841226"
+                    addressLink="https://maps.app.goo.gl/SrdxxTpKf8Htah1F9"
+                />
                 <StorySection />
                 <PhotoSection />
                 <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />

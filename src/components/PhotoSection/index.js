@@ -7,7 +7,7 @@ function PhotoSection() {
   const renderYoutubeVideo = () => {
     return (
       <iframe
-        title="Engagement Kajal & Manish"
+        title="Engagement - Kajal & Manish"
         width="100%"
         height="360px"
         src="https://www.youtube.com/embed/RmTR793UszM"
@@ -24,12 +24,9 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">#TheKusuma</h2>
+              <h2 className="main-font">Engagement</h2>
               <p className="sub-title">
-                "And of His signs is that He created for you from yourselves mates that you may find tranquility in
-                them; and He placed between you affection and mercy. Indeed in that are signs for a people who give
-                thought" <br />
-                (Ar-Rum 30:21).
+                "Engagement marks the end of a whirlwind romance and the beginning of an eternal story." <br />
               </p>
             </div>
           </div>

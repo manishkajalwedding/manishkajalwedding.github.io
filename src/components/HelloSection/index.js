@@ -3,11 +3,11 @@ import { bool } from 'prop-types';
 
 import Bride from '@assets/images/p-kajal.jpg';
 import Groom from '@assets/images/p-manish.jpg';
-
+import { GOOGLE_CALENDAR_LINK } from '@/constants'
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-    const finalSubtitle = isInvitation ? 'Sunday, Apr 17, 2024, Babhanbara, Badhariya, Siwan' : 'Sunday, April 17, 2024';
+    const finalSubtitle = isInvitation ? 'Wednesday, Apr 17, 2024, Babhanbara, Badhariya, Siwan' : 'Wednesday, April 17, 2024';
 
     return (
         <Fragment>
@@ -16,11 +16,11 @@ function HelloSection({ isInvitation }) {
                     <div className="row">
                         <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                             <h2 className="main-font">Save the Date</h2>
-                            <h3 className="sub-title hs">{finalSubtitle}</h3>
+                            <h3 className="sub-title hs"> <a href={GOOGLE_CALENDAR_LINK} target="_blank">{finalSubtitle}</a></h3>
                             <p className="info">
                                 We extend a heartfelt invitation to join us in celebrating the joyous occasion of our wedding.
-                                 Your presence would mean the world to us as we embark on this beautiful journey together. 
-                                 Your love and support are truly cherished, and we look forward to sharing this special day with you.
+                                Your presence would mean the world to us as we embark on this beautiful journey together.
+                                Your love and support are truly cherished, and we look forward to sharing this special day with you.
                             </p>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ function HelloSection({ isInvitation }) {
                             <div className="desc-bride">
                                 <h3 className="main-font">Manish Verma</h3>
                                 <p className="parent-name">
-                                    Son of Ms. Gyanti Devi <br/>& Late Mr. Ramayana Prasad
+                                    Son of Ms. Gyanti Devi <br />& Late Mr. Ramayana Prasad
                                 </p>
                             </div>
                         </div>

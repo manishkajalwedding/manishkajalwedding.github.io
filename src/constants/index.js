@@ -1,8 +1,7 @@
 /**
  * Link
  */
-export const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/event?action=TEMPLATE&dates=20201003T040000Z%2F20201003T060000Z&text=Kajal+%26+Manish+Wedding&details=Kajal+%26+Manish+Wedding`;
-export const GOOGLE_MAPS_LINK = `https://maps.app.goo.gl/efoTbuuNETRyah7x6`;
+export const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/event?action=TEMPLATE&dates=20240417T100000Z%2F20240417T220000Z&text=Kajal+%26+Manish+Wedding&details=Kajal+%26+Manish+Wedding`;
 
 /**
  * Wedding time
