@@ -7,8 +7,8 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `https://thekusuma.com/static/gallery-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
-const META_DESCRIPTION = `Put meta desc`;
+const IMAGE_URL = `https://manishkajalwedding.github.io/static/gallery-7-50d2f92c1628c31bed11766f05a4b04a.jpg`;
+const META_DESCRIPTION = `The joyous and sacred union of Manish and Kajal in the sacred bond of matrimony, where two hearts entwined in love embark on a beautiful journey together, promising a lifetime of companionship, shared dreams, and everlasting bliss.`;
 
 function MainLayout({ children }) {
   return (
@@ -22,13 +22,13 @@ function MainLayout({ children }) {
         {/* font and SEO tags */}
         <meta property="og:title" content="The Wedding of Kajal & Manish" />
         <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:url" content="https://thekusuma.com" />
+        <meta property="og:url" content="https://manishkajalwedding.github.io" />
         <meta property="og:site_name" content="The Wedding of Kajal & Manish" />
         <meta property="og:description" content={META_DESCRIPTION} />
         <meta name="twitter:title" content="The Wedding of Kajal & Manish" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
-        <meta name="twitter:url" content="https://thekusuma.com" />
+        <meta name="twitter:url" content="https://manishkajalwedding.github.io" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@manish" />
 
